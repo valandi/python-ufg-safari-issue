@@ -65,7 +65,7 @@ def eyes_setup(runner, batch_info):
         eyes.configure.add_browser(800, 600, BrowserType.CHROME)
             .add_browser(700, 500, BrowserType.FIREFOX)
             .add_browser(1920, 1080, BrowserType.SAFARI_ONE_VERSION_BACK)
-            .add_browser(1920, 1080, BrowserType.SAFARI)
+            # .add_browser(1920, 1080, BrowserType.SAFARI)
     )
     logger.set_logger(StdoutLogger())
     yield eyes
