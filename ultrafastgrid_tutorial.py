@@ -20,7 +20,7 @@ def batch_info():
     """
     Use one BatchInfo for all tests inside module
     """
-    return BatchInfo("Demo Batch - Selenium for Python - Ultrafast")
+    return BatchInfo("safari 16 reproducer")
 
 
 @pytest.fixture(name="driver", scope="function")
